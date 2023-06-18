@@ -12,6 +12,7 @@ public class CheckedException {
 		FileInputStream fis = new FileInputStream("C:\\Users\\asus\\Desktop\\Case Movement.xlsx");
 		//Class not found exception (Checked Exception)
 		Class.forName("com.mysql.jdbc.Driver");
+		System.out.println("add this code to git...");
 	}
 
 }
