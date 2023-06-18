@@ -24,6 +24,7 @@ public class WoExceptionHandling {
 		catch (ArrayIndexOutOfBoundsException e2) {
 			System.out.println("Value assign to wrong index");
 		}
+		System.out.println("added new print statement...");
 
 	}
 
